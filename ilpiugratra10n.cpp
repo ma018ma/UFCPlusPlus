@@ -6,18 +6,16 @@ using namespace std;
 
 int main()
 {
-    int i;
-    int n = 10;
-    int maggiore = 0;
-    int risultato =0;
+    int n = 0;
+    int mag = 0;
 
-    cout<< "mi dai 10 numeri?";
-    cin>> n;
-
-    for(i=0;i<=n;i++){
-        if(n>maggiore;
-        maggiore=risultato)
-        cout<< "il più grande e " << risultato <<endl;
+    for (int i = 0; i < 10; i++)
+    {   
+        cout << "mi dai un numero?";
+        cin >> n;
+        if (n > mag){
+           mag = n ;
+        }
     }
+cout<<"il piu grande e " << mag;
 }
-    
